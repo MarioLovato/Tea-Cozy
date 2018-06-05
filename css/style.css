@@ -5,6 +5,8 @@ body {
   background-color: Black;
 }
 
+/* Header Section */
+
 header {
   position: fixed;
   border-bottom: 1px solid seashell;
@@ -46,9 +48,7 @@ span a {
   width: 1200px;
   height: 700px;
   margin: auto;
-
 }
-
 
 .text {
   background-color: Black;
@@ -119,48 +119,48 @@ span a {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
 }
 
-#locations h2 {
-  margin-bottom: 400px;
+#locations {
   text-align: center;
 }
 
-/* Second Section-Boxes */
-
 #addres {
   text-align: center;
-  background-color: black;
+
   display: flex;
   justify-content: space-around;
   align-content: center;
+  align-content: center;
   margin-left: 40px;
   flex-direction: row;
+  margin-bottom: 100px;
 }
 
 .Downtown {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  display: inline-flex;
-  justify-content: center;
+  justify-content: space-around;
+  background-color: black;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .East-Bayside {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  display: flex;
   justify-content: space-around;
+  background-color: black;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-
 
 .Oakdale {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  display: flex;
   justify-content: space-around;
+  background-color: black;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-
 
 /* Footer */
 
@@ -169,4 +169,5 @@ span a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 200px;
 }
