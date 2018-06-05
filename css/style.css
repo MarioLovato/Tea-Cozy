@@ -9,14 +9,14 @@ header {
   position: fixed;
   border-bottom: 1px solid seashell;
   height: 69px;
-  width: 1200px;
+  width: 100%;
   background-color: Black;
   font-size: 22px;
 }
 
 header nav {
- padding-left: 710px;
- width: 1200px;
+ padding-left: 80%;
+ width: 100%;
 }
 
 .logo img {
@@ -41,20 +41,23 @@ a {
 /* Main Content Container */
 
 .page1 {
-  display: flex;
-  padding-top: 580px;
-  height: 500px;
-  background-color: Black;
+  display: inline-flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   text-align: center;
-  width: 1200px;
+  width: 100%;
+  height: 700px;
   margin-left: 20px;
 
 }
 
-.background {
 
+.text{
   background-color: Black;
-  width: 100%;
+  width: 1200px;
+  height: 50px;
+  margin-left: 600px;
+  padding-top: 350px;
+
 
 }
 
@@ -71,8 +74,6 @@ a {
   height: 700px;
   padding-top: 70px;
   margin: auto;
-  align-items: center;
-
 }
 .image {
   padding: 5px;
